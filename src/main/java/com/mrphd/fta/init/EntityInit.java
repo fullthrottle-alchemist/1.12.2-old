@@ -26,7 +26,7 @@ public class EntityInit {
 		EntityInit.registerEntity("cold_pig", COLD_PIG_ID, 50, EntityColdPig.class, false);
 	}
 
-	private static void registerEntity(final String name, final int id, final int range, final Class<? extends Entity> clazz, final boolean hasEgg) {//, final Supplier<Render, RenderManager> p) {
+	private static void registerEntity(final String name, final int id, final int range, final Class<? extends Entity> clazz, final boolean hasEgg) {
 		if(hasEgg) EntityRegistry.registerModEntity(
 			new ResourceLocation(Reference.MOD_ID + ":" + name), 
 			clazz, 
@@ -49,10 +49,6 @@ public class EntityInit {
 			1, 
 			true
 		);
-	}
-
-	public static interface Supplier<T, U> {
-		public T create(final U u);
 	}
 
 }

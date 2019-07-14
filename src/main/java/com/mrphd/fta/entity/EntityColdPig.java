@@ -6,6 +6,7 @@ import java.util.Set;
 import javax.annotation.Nullable;
 
 import com.google.common.collect.Sets;
+import com.mrphd.fta.init.ItemInit;
 
 import net.minecraft.block.Block;
 import net.minecraft.entity.Entity;
@@ -288,7 +289,7 @@ public class EntityColdPig extends EntityColdAnimal {
 	public List<ItemStack> onSheared(final ItemStack item, final IBlockAccess world, final BlockPos pos, final int fortune) {
 		final List<ItemStack> ret = super.onSheared(item, world, pos, fortune);
 		final int count = (int) (Math.random() * 2 + 1);
-		ret.add(new ItemStack(Items.PORKCHOP, count + fortune)); // TODO: Add custom item Bacon Strip and Cooked Bacon Strip
+		ret.add(new ItemStack(ItemInit.BACON_STRIP, count + fortune)); // TODO: Add custom item Bacon Strip and Cooked Bacon Strip
 		return ret;
 	}
 
