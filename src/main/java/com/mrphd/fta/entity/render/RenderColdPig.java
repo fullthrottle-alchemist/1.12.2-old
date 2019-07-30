@@ -1,12 +1,11 @@
 package com.mrphd.fta.entity.render;
 
-import com.mrphd.fta.entity.EntityColdPig;
+import com.mrphd.fta.entity.passive.EntityColdPig;
 import com.mrphd.fta.util.Reference;
 
 import net.minecraft.client.model.ModelPig;
 import net.minecraft.client.renderer.entity.RenderLiving;
 import net.minecraft.client.renderer.entity.RenderManager;
-import net.minecraft.client.renderer.entity.RenderPig;
 import net.minecraft.client.renderer.entity.layers.LayerRenderer;
 import net.minecraft.util.ResourceLocation;
 import net.minecraftforge.fml.relauncher.Side;

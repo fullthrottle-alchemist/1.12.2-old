@@ -1,6 +1,8 @@
 item.bacon_strip.name=Bacon
 item.cooked_bacon_strip.name=Cooked Bacon
 
+tile.atelier.name=Atelier
+
 entity.cold_cow.name=Cold Cow
 entity.cold_chicken.name=Cold Chicken
 entity.cold_pig.name=Cold Pig

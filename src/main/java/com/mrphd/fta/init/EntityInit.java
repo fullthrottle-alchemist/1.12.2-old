@@ -3,9 +3,9 @@ package com.mrphd.fta.init;
 import java.util.Random;
 
 import com.mrphd.fta.Main;
-import com.mrphd.fta.entity.EntityColdChicken;
-import com.mrphd.fta.entity.EntityColdCow;
-import com.mrphd.fta.entity.EntityColdPig;
+import com.mrphd.fta.entity.passive.EntityColdChicken;
+import com.mrphd.fta.entity.passive.EntityColdCow;
+import com.mrphd.fta.entity.passive.EntityColdPig;
 import com.mrphd.fta.util.Reference;
 
 import net.minecraft.entity.Entity;

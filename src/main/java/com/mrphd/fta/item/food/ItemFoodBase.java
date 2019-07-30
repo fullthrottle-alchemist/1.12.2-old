@@ -2,7 +2,7 @@ package com.mrphd.fta.item.food;
 
 import com.mrphd.fta.Main;
 import com.mrphd.fta.init.ItemInit;
-import com.mrphd.fta.ui.CreativeTab;
+import com.mrphd.fta.tab.CreativeTab;
 import com.mrphd.fta.util.IHasModel;
 
 import net.minecraft.item.ItemFood;

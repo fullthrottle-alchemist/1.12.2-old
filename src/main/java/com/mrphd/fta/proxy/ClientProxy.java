@@ -1,7 +1,5 @@
 package com.mrphd.fta.proxy;
 
-import com.mrphd.fta.util.Reference;
-
 import net.minecraft.client.renderer.block.model.ModelResourceLocation;
 import net.minecraft.item.Item;
 import net.minecraftforge.client.model.ModelLoader;

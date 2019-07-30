@@ -1,6 +1,6 @@
 package com.mrphd.fta.entity.render;
 
-import com.mrphd.fta.entity.EntityColdChicken;
+import com.mrphd.fta.entity.passive.EntityColdChicken;
 import com.mrphd.fta.util.Reference;
 
 import net.minecraft.client.model.ModelChicken;
